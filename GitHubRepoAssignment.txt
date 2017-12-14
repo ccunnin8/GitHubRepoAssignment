@@ -1,0 +1,14 @@
+cd ..
+mkdir GitHubRepoAssignment
+cd GitHubRepoAsignment
+touch readme.txt
+(edit readme.txt)
+git add .
+git commit -m "added readme"
+git remote add origin https://github.com/ccunnin8/GitHubRepoAssignment.git
+touch GitHubRepoAssignmentText
+subl GitHubRepoAssignmentText
+(edit file)
+git add .
+git commit -m "Added new file"
+git push origin master
